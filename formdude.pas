@@ -134,7 +134,7 @@ Uses FormLog, FormSmall;
 const
   csConfigFile  = 'AVRdude.ini';
   csLogFile     = 'LogFile.txt'; 
-  csAppInfo     = 'AVRDude GUI v1.1 [201908]';
+  csAppInfo     = 'AVRDude GUI v1.2 [201911]';
   csInfo        = 'by : TooPayZ'+#13#10+
                   'From maker to maker...^^...'+#13#10+#13#10+
                   'AVRDude by Brian S. Dean'+#13#10+

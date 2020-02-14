@@ -61,10 +61,10 @@ object FDude: TFDude
     Height = 341
     Top = 45
     Width = 621
-    ActivePage = TabDude
+    ActivePage = TabInfo
     Anchors = [akTop, akLeft, akRight, akBottom]
     ParentFont = False
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 0
     object TabDude: TTabSheet
       Caption = 'Settings'

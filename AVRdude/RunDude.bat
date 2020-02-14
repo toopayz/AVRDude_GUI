@@ -1,3 +1,3 @@
 @ECHO OFF
-"E:\Lazarus\AVRDude GUI\avrdude\avrdude.exe" -Cavrdude.conf -v -patmega2560 -cwiring -PCOM8 -b115200 -D -Uflash:w:"E:\WizJob\Sindengen Deltamas\ESD Tester\AS7_ESDTester\Debug\AS7_ESDTester.hex":i
+"E:\zTooPayZ GitHub\AVRDude GUI\avrdude\avrdude.exe" -Cavrdude.conf -v -pm328p -carduino -PCOM4 -b57600 -D -Uflash:w:"E:\#_2020 Project\PAYZ - Spider LowCost v1.0\AS-SpideyBot_4Leg\Debug\AS-SpideyBot_4Leg.hex":i
 PAUSE

@@ -68,34 +68,37 @@
       <FormatVersion Value="2"/>
       <Modes Count="0"/>
     </RunParams>
-    <RequiredPackages Count="9">
+    <RequiredPackages Count="10">
       <Item1>
-        <PackageName Value="richmemopackage"/>
+        <PackageName Value="BGRAControlsFX"/>
       </Item1>
       <Item2>
-        <PackageName Value="LazUtils"/>
+        <PackageName Value="richmemopackage"/>
       </Item2>
       <Item3>
-        <PackageName Value="uniqueinstance_package"/>
+        <PackageName Value="LazUtils"/>
       </Item3>
       <Item4>
-        <PackageName Value="FCL"/>
+        <PackageName Value="uniqueinstance_package"/>
       </Item4>
       <Item5>
-        <PackageName Value="LazSerialPort"/>
+        <PackageName Value="FCL"/>
       </Item5>
       <Item6>
-        <PackageName Value="uEControls"/>
+        <PackageName Value="LazSerialPort"/>
       </Item6>
       <Item7>
-        <PackageName Value="eccontrols"/>
+        <PackageName Value="uEControls"/>
       </Item7>
       <Item8>
-        <PackageName Value="bgracontrols"/>
+        <PackageName Value="eccontrols"/>
       </Item8>
       <Item9>
-        <PackageName Value="LCL"/>
+        <PackageName Value="bgracontrols"/>
       </Item9>
+      <Item10>
+        <PackageName Value="LCL"/>
+      </Item10>
     </RequiredPackages>
     <Units Count="4">
       <Unit0>
