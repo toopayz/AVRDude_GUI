@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Count="1" Active="Release">
+      <Item1 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="AVRDude GUI"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="i386"/>
+            <TargetOS Value="win32"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="AVRLoader.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="15"/>
+        <UsageCount Value="105"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formdude.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FDude"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormDude"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="598"/>
+        <CursorPos X="22" Y="612"/>
+        <FoldState Value=" T3kD078 pjBjg055 picjH0F2]I3jP0321"/>
+        <UsageCount Value="105"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="formlog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FLog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormLog"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="59" Y="23"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="formsmall.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FSmall"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormSmall"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="25"/>
+        <CursorPos X="68" Y="50"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="formmain.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormMain"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="12"/>
+        <UsageCount Value="14"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="formavrdude.pas"/>
+        <ComponentName Value="FrTemplate"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormAvrDude"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="14"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-base\src\inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="125"/>
+        <CursorPos X="3" Y="145"/>
+        <UsageCount Value="6"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="402"/>
+        <CursorPos X="12" Y="416"/>
+        <UsageCount Value="13"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="132"/>
+        <CursorPos Y="153"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\sysansih.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="18"/>
+        <UsageCount Value="7"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="54" Y="27"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-process\src\process.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="56" Y="25"/>
+        <UsageCount Value="12"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\typshrdh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\wininc\struct.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2974"/>
+        <CursorPos X="6" Y="2984"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\wininc\ascdef.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="249"/>
+        <CursorPos X="10" Y="260"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="401" Column="73" TopLine="277"/>
+      </Position1>
+      <Position2>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="392" Column="37" TopLine="388"/>
+      </Position2>
+      <Position3>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="400" Column="60" TopLine="388"/>
+      </Position3>
+      <Position4>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="401" Column="73" TopLine="388"/>
+      </Position4>
+      <Position5>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="388" Column="2" TopLine="337"/>
+      </Position5>
+      <Position6>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="416" Column="2" TopLine="337"/>
+      </Position6>
+      <Position7>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="421" Column="33" TopLine="357"/>
+      </Position7>
+      <Position8>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="445" Column="53" TopLine="357"/>
+      </Position8>
+      <Position9>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="449" Column="23" TopLine="389"/>
+      </Position9>
+      <Position10>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="456" Column="69" TopLine="423"/>
+      </Position10>
+      <Position11>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="493" Column="8" TopLine="480"/>
+      </Position11>
+      <Position12>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="497" Column="40" TopLine="480"/>
+      </Position12>
+      <Position13>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="498" Column="40" TopLine="480"/>
+      </Position13>
+      <Position14>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="499" Column="40" TopLine="480"/>
+      </Position14>
+      <Position15>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="497" Column="48" TopLine="480"/>
+      </Position15>
+      <Position16>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="317" Column="66" TopLine="268"/>
+      </Position16>
+      <Position17>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="319" Column="66" TopLine="270"/>
+      </Position17>
+      <Position18>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="278" Column="13" TopLine="166"/>
+      </Position18>
+      <Position19>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="338" Column="4" TopLine="177"/>
+      </Position19>
+      <Position20>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="251" Column="67" TopLine="246"/>
+      </Position20>
+      <Position21>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="250" Column="67" TopLine="245"/>
+      </Position21>
+      <Position22>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="249" Column="67" TopLine="244"/>
+      </Position22>
+      <Position23>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="248" Column="67" TopLine="243"/>
+      </Position23>
+      <Position24>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="247" Column="67" TopLine="242"/>
+      </Position24>
+      <Position25>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="246" Column="67" TopLine="241"/>
+      </Position25>
+      <Position26>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="251" Column="67" TopLine="246"/>
+      </Position26>
+      <Position27>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="250" Column="67" TopLine="245"/>
+      </Position27>
+      <Position28>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="137" Column="71" TopLine="123"/>
+      </Position28>
+      <Position29>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="4" Column="55"/>
+      </Position29>
+      <Position30>
+        <Filename Value="formdude.pas"/>
+        <Caret Line="604" Column="40" TopLine="598"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

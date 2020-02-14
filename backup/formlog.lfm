@@ -1,0 +1,36 @@
+object FLog: TFLog
+  Left = 406
+  Height = 661
+  Top = 94
+  Width = 1141
+  Caption = 'AVRDude Process Log.'
+  ClientHeight = 661
+  ClientWidth = 1141
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.0.4'
+  object MLog: TMemo
+    Left = 0
+    Height = 661
+    Top = 0
+    Width = 1141
+    Align = alClient
+    Color = 1447446
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -18
+    Font.Name = 'Lucida Console'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'MLog'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+end
