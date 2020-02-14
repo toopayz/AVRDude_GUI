@@ -1,5 +1,6 @@
 # AVRDude_GUI
-GUI (Graphical User Interface) Aplikasi untuk meng-upload *.hex file ke mikrokontroller dengan memanfaatkan konsole AVRDude.
+GUI (Graphical User Interface) Aplikasi untuk meng-upload *.hex file ke mikrokontroller
+dengan memanfaatkan konsole AVRDude.
 
 OS   : Windows 10 64 bit
 IDE  : Free Pascal Lazarus v2.0.0
