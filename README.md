@@ -1,5 +1,6 @@
 # AVRDude_GUI
-بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم...  
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم... 
+  
 GUI (Graphical User Interface) Aplikasi untuk meng-upload *.hex file ke mikrokontroller  
 dengan memanfaatkan konsole AVRDude.  
 
